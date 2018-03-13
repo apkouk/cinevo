@@ -1,8 +1,8 @@
 {
   "name": "cinevo",
   "version": "1.0.0",
+  "main": "server.js",
   "description": "Find original version films",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,12 +18,9 @@
   "homepage": "https://github.com/apkouk/cinevo#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "cheerio": "^1.0.0-rc.2",
+    "curl": "^0.1.4",
     "express": "^4.16.3",
     "jwt-simple": "^0.5.1",
-    "mocha": "^5.0.4",
-    "mongoose": "^5.0.10",
-    "morgan": "^1.9.0",
-    "npm": "^5.7.1"
+    "morgan": "^1.9.0"
   }
 }
